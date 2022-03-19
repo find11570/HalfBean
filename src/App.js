@@ -1,18 +1,27 @@
 import React from 'react';
-import {Text, View, StyleSheet} from 'react-native';
+import {SafeAreaView, StyleSheet, Text} from 'react-native';
 
-function App() {
+const App = () => {
   return (
-    <View style={styles.container}>
-      <Text>Hello world from React Naitve Web</Text>
-    </View>
+    <SafeAreaView style={styles.container}>
+      <Text style={styles.appTitle}>드디어 성공</Text>
+    </SafeAreaView>
   );
-}
+};
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+    backgroundColor: '#3143e8',
+  },
+  appTitle: {
+    color: '#fff',
+    fontSize: 36,
+    marginTop: 30,
+    marginBottom: 30,
+    fontWeight: '300',
+    textAlign: 'center',
+    backgroundColor: '#3143e8',
   },
 });
 
