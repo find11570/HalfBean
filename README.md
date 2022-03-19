@@ -3,12 +3,10 @@ HalfBean Front Code
 
 웹에서 실행 명령어
 
-
-터미널에서 npm run start-react
+(터미널에서) npm run start-react
 
 
 앱에서 실행 명령어(Android)
 
-
-터미널에서 react-native run-android
+(터미널에서) react-native run-android
 
